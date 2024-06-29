@@ -25,11 +25,14 @@ class ToDos {
     poirotsToDos.add("reveal the truth of the crime");
     
     // Print the size of each ArrayList below:
-
-    
+    System.out.println("Sherlock: " + sherlocksToDos.size());
+    System.out.println("Poirot: " + poirotsToDos.size());
       
     // Print the name of the detective with the larger to-do list:
-    
+    if (sherlocksToDos.size() > poirotsToDos.size())
+        System.out.println("Sherlock");
+    else
+        System.out.println("Poirot");
   }
   
 }
